@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Deliver...'
                 sh '''
-                docker push voblamas/dlang-service:arm .
+                docker push voblamas/dlang-service:arm
                 '''
             }
         }
